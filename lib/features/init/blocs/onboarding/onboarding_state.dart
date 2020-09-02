@@ -1,0 +1,10 @@
+part of 'onboarding_bloc.dart';
+
+@immutable
+abstract class OnboardingState {}
+
+class OnboardingInitial extends OnboardingState {}
+
+class Onboarded extends OnboardingState {}
+
+class NotOnboarded extends OnboardingState {}
